@@ -1,0 +1,178 @@
+@font-face {  
+	  font-family: "myFont";  
+	  src: url( /location/of/font/FontFileName.eot ); /* IE */  
+	  src: local("hffRibbon"), url('font/Gabrielle.ttf') format("truetype"); /* non-IE */  
+	}  
+        
+/* Reset body padding and margins */
+body { margin:0; padding:0;background-color:#fff!important; }
+
+/* Bootsrap Hack */
+.page-header{
+    margin-top:0!important;
+    padding: 0!important;
+    margin-bottom: 0!important;
+    height: 80px;
+    background:#000
+}
+
+.logo_instansi { width: 44%; height: 70px; margin-left: 2%; background: url('../../../logo/logo.png') no-repeat left;}
+.logo_brand {width: 40%; height: 70px; background: url('../img/brand.png') no-repeat right; margin-right: 2%}
+
+.navbar-inner{
+    padding: 0!important;
+    margin-bottom: 0px!important;
+    -webkit-border-radius: 0!important; 
+    -moz-border-radius: 0!important; 
+    border-radius: 0!important;
+}
+.form-horizontal{
+    margin-top: -16px!important;
+}
+.control-group{
+    margin-bottom: 4px!important;
+    margin-left: -25px!important;
+}
+fieldset legend{
+    height: 45px!important;
+    margin-bottom: 7px!important;
+}
+legend img{
+    padding-bottom: 10px!important;
+}
+.bootbox{
+    z-index: 999999999!important;
+    margin-top: 40px!important;
+}
+.table-width{
+    width:95%!important;
+    margin: 4px auto 4px auto!important;
+}
+.pagination{
+    margin-top: 0!important;
+    float: left!important;
+    clear: both;
+}
+#paginationfooter{
+    height: 50px!important;
+    padding: 0;
+    margin-left: 35px!important;
+}
+#itemtot{
+    float: right;
+    margin-right: 50px;
+    font-weight: bold;
+}
+
+.datepicker { font-size: 13px; }
+
+/* Pagination Style */
+.table-width{width:95%!important;margin: -10px auto 4px auto!important;}
+.pagination{margin-top: 0!important;float: left!important;clear: both;}
+#paginationfooter{height: 50px!important;padding: 0;margin-left: 35px!important;}
+#itemtot{float: right;margin-right: 50px;font-weight: bold;}
+#plus-refresh{float:right;margin-top:0;margin-right:15px;margin-bottom:10px;font-family: arial;font-size: 12px;}
+
+/* Make Header Sticky */
+#header_container { 
+    border:1px solid #fff; 
+    left:0; 
+    position:fixed; 
+    width:100%; 
+    top:0;
+    margin:-1px; 
+    z-index: 9999;
+}
+fieldset table th{
+    background: #ccc;
+    text-align: center!important;
+}
+/* CSS for the content of page. I am giving top and bottom padding of 80px to make sure the header and footer do not overlap the content.*/
+#container { margin:120px 0px 0px 0px; overflow:auto; padding:10px 10px 50px 10px; width:100%;background:#fff; }
+
+#footer_container {  
+    bottom:0; 
+    height:18px; 
+    left:0; 
+    position:fixed; 
+    width:100%;
+    z-index: 999;
+    padding-bottom: 5px;
+    text-align: center;
+    padding-top: 7px;
+}
+
+
+h2{font-family: myFont;font-size: 25px;margin:0;padding:0;color: #006633;}
+
+.logobesar {
+    text-align: center;
+}
+.hometext{
+    font-family: verdana;
+    font-size: 20px;
+    color:#01218A;
+    padding:5px;
+    text-align:justify;
+    margin-right: 12px;
+}
+
+/* Make Header Sticky */
+#header_container { 
+    background:#eee; 
+    border:1px solid #fff; 
+    height:119px; 
+    left:0; 
+    position:fixed; 
+    width:100%; 
+    top:0; 
+    z-index: 9999;
+}
+
+#leftside{
+     padding:3px;
+     width:480px;
+     float:left;
+     margin-right: 20px;
+     margin-top: -13px;
+ }
+ 
+ #rightside{
+     position: absolute;
+     margin-top: -13px;
+     padding:5px;
+     float:left;
+     width:57%;
+     height: 400px;
+     left:535px;
+     right:0px;
+     z-index: 1;
+ }
+.error{
+    color:#ff0000;
+}
+
+#thecontent{
+position: relative;
+overflow: scroll;
+overflow-x:hidden;
+min-height: 300px;
+width: 80%;
+}
+
+#legdok {
+    position: absolute;
+    color: #442C61;
+    margin-left: 0px;
+    margin-top: -35px;
+    height: 20px;
+    font-weight: bold;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background: #ccc;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+
+}
